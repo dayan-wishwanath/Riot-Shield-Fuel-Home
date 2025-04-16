@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot-Shield Fuel Distributors</title>
+    <link rel="stylesheet" href="FuelDetails.css">
+    <link rel="stylesheet" href="Header.css" />
+    <link rel="stylesheet" href="Footer.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">LOGO</a>
+
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">FUEL STATUS</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+
+        <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search here..." />
+        </div>
+    </nav>
+
+
+
+    <div class="main-content-container">
+        <div class="banner-1">
+            <h1>Riot-Shield Fuel Distributors</h1>
+        </div>
+
+        <div class="container">
+            <div class="about-us-section">
+                <div class="image-container">
+                    <img src="img/fuel Station by Kanner Architect, Los Angeles.jpeg" alt="Fuel Station Image">
+                </div>
+                <div class="about-us-content">
+                    <h2 class="about-us">Who We Are?</h2>
+                    <p>At Riot-Shield Fuel Distributors, we fuel the engines of industry with precision and care.
+                        With decades of expertise, we have perfected the art of delivering reliable energy solutions that empower businesses to thrive in any environment. <br> 
+                        Our unwavering commitment to quality and customer satisfaction drives us to consistently exceed expectations, 
+                        providing top-tier fuel services tailored to meet your specific needs. Whether you are powering fleets, 
+                        industrial machinery, or mission-critical operations, we are your trusted partner in energy. <br><br>
+                        Let us help you move forward with confidence, knowing that your fuel supply is not just reliable but optimized for peak performance. 
+                        Your success is our mission.</p>
+                    <button class="contact-button" id="contactButton">Contact Us</button>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <section class="fuel-info">
+            <div class="our-fuel-container">
+                <h2 class="our-fuels">Our Fuels</h2>
+                <p class="our-fuel-description">We offer a wide range of high-quality fuels designed to meet the needs of both commercial and industrial clients. <br>
+                From diesel and gasoline to biodiesel and ethanol blends, our fuels ensure optimal performance and efficiency.<br>
+                Whether you require traditional or renewable energy options, we have the right solution for your business.</p>
+            </div>
+            
+            <div class="fuel-types">
+                <div class="fuel-type">
+                    <img class="fuel-images" src="img/Diesel can 1.webp" alt="Diesel pump image">
+                    <a class="fuel-a" href="#"> <!-- Using random link for anchor tag -->
+                        <h3>Diesel</h3>
+                    </a>
+                    <p>We provide clear and dyed diesel to meet your specific needs.</p>
+                    <button class="fuel-button" id="fuelButton1">More Details</button>
+                </div>
+                <div class="fuel-type">
+                    <img class="fuel-images" src="img/Gasoline fuel can 2.jpg" alt="Gasoline image">
+                    <a class="fuel-a" href="#"> <!-- Using random link for anchor tag -->
+                        <h3>Gasoline</h3>
+                    </a>
+                    <p>Our gasoline fuels are available in various octane levels.</p>
+                    <button class="fuel-button" id="fuelButton2">More Details</button>
+                </div>
+                <div class="fuel-type">
+                    <img src="img/Ethanole can 1.jpg" alt="" class="fuel-images">
+                    <a class="fuel-a" href="#"> <!-- Using random link for anchor tag -->
+                        <h3>Ethanol E85</h3>
+                    </a>
+                    <p>A renewable fuel option for those who want to reduce emissions.</p>
+                    <button class="fuel-button" id="fuelButton3">More Details</button>
+                </div>
+                <div class="fuel-type">
+                    <img class="fuel-images" src="img/Diesel Exhaust Fluid can 1.webp" alt="">
+                    <a class="fuel-a" href="https://boosterusa.com/blog/what-is-diesel-exhaust-fluid-and-why-is-it-important/">  <!-- Using random link for anchor tag -->
+                        <h3>Diesel Exhaust Fluid</h3>
+                    </a> 
+                    <p>For diesel vehicles that need to meet emissions standards.</p> 
+                    <button class="fuel-button" id="fuelButton4">More Details</button>
+                </div>
+                <div class="fuel-type">
+                    <img src="img/Biodiesel can 1.webp" alt="" class="fuel-images">
+                    <a class="fuel-a" href="https://afdc.energy.gov/fuels/biodiesel-basics"> <!-- Using random link for anchor tag -->
+                        <h3>Biodiesel</h3>
+                    </a>
+                        <p>Biodiesel reduces emissions while providing renewable & efficient fuel.</p>
+                        <button class="fuel-button" id="fuelButton5">More Details</button>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="banner-2">
+            <p>Visit Our <a class="fuel-a" href="#">On-Site Tank</a> Content Hub for More Information & Questions Answered</p>
+        </div>
+        
+        
+    </div>
+
+    <script src="js/fuelInfo.js"></script>
+
+
+    <footer>
+    
+
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>Zeaglion</h3>
+                <p id="det" style="padding-right: 6%; font-family: cursive;font-weight: 900;">Experience unparalleled vehicle service with our expert team, connecting you with top-notch
+                    maintenance, repairs, and resources for all your automotive needs.</p>
+                
+            </div>
+    
+            <div class="footer-section links">
+                <h4 class="Na">Navigation</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Fuel Status</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section links">
+                <h4 class="Na">Learn</h4>
+                <ul>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">ThinkShop</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section links">
+                <h4 class="Na">About</h4>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">News & Press</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section contact">
+                <h4>Contact Us</h4>
+                <a href="#" class="get-in-touch">Get in touch</a>
+            </div>
+        </div>
+        <div class="contactinfo">
+            <a href="#" style="margin-left: 40.5%;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    
+        <p class="allright">
+            2024 All Right Reserved
+        </p>
+    </footer>   
+
+</body>
+</html>
